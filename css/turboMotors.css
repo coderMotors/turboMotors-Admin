@@ -1,0 +1,38 @@
+.container-fluid{
+    height: 100%;
+}
+
+.form-cadastro {
+    padding: 2rem;
+    height: 100%;
+} 
+
+.cadastro {
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.meuFormulario {
+    padding-top: 1rem;
+    display: block;
+    pointer-events: none;
+
+}
+
+
+.round-button {
+    width: 40px;
+    height: 40px;
+    background-color: #0074d9; /* Cor de fundo desejada */
+    color: #fff; /* Cor do ícone */
+    border-radius: 50rem !important; /* Torna o botão redondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px; /* Espaçamento entre os botões */
+  }
+  
+  .round-button i {
+    font-size: 24px; /* Tamanho do ícone */
+  }
